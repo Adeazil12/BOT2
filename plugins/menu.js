@@ -488,12 +488,12 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n By Zakuro-Dev',
+            footer: titlebot + '\n By Ademods',
             templateButtons: [
                 {
                     urlButton: {
                         displayText: `SUBSCRIBE`,
-                        url: 'https://youtubr.com/c/LeonGanz'
+                        url: 'https://youtubr.com/c/Ademods'
                     }
                 },
                 {
@@ -536,7 +536,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = false
+handler.register = true
 handler.exp = 3
 
 export default handler
